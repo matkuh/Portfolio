@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    /* background: black; */
+    color: white;
+    overflow-x: hidden;
+}
+
+.title {
+    font-family: 'Sigmar One', cursive;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left:1rem;
+    letter-spacing: 10px;
+    -webkit-animation: color-change 5s infinite;
+    -moz-animation: color-change 5s infinite;
+    -o-animation: color-change 5s infinite;
+    -ms-animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
+  }
+
+h1 {
+    color: black;
+    padding-top: 3%;
+    margin-left: 1rem;
+    font-family: 'Sigmar One', cursive;
+}
+
+h2 {
+    color: black;
+    padding-top: 3%;
+    margin-left: 1rem;
+    font-family: 'Sigmar One', cursive;
+}
+
+a:hover{
+    color: rgb(11, 11, 139);
+    border: rgb(11, 11, 139);
+}
+  
+  /* Nav styling */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background: black; */
+    color: black;
+    z-index: 100;
+    font-family: 'Sigmar One', cursive;
+}
+
+.spacer {
+    flex: 1;
+  }
+  
+.nav-main {
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+}
+
+.nav-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-items li {
+    padding: 0 0.5rem;
+  }
+  
+  .nav-item {
+    font-family: 'Sigmar One', cursive;
+    color: black;
+    font-weight: 100;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
+  .nav-item:hover,
+  .nav-item:active {
+    color: rgb(11, 11, 139);
+    border: 2px solid;
+    text-decoration: none;
+  }
+
+#home {
+    height: 100vh;
+    background-image: url("assets/background1.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#projects {
+    height: 100vh;
+    background-image: url("assets/background2.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#contact {
+    height: 100vh;
+    background-image: url("assets/background3.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+
+h3 {
+    padding-top: 20%;
+}
+
+
+.card-img-top {
+    height: 200px;
+    width: 350;
+}
+
+  
+video {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+
+.project-cards {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.project-cards:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
