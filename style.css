@@ -106,7 +106,7 @@ nav {
 
 #contact {
     height: 100vh;
-    background-image: url("assets/background3.jpg");
+    background-image: url("assets/background4.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -169,3 +169,12 @@ video {
       transform: translate3d(4px, 0, 0);
     }
   }
+
+.contact-img {
+    width: 80%;
+    height: 80%;
+}
+.contact-img1 {
+    width: 70%;
+    height: 80%;
+}
