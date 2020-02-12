@@ -36,6 +36,14 @@ h2 {
     font-family: 'Sigmar One', cursive;
 }
 
+.welcome {
+    color: black;
+    font-family: 'Sigmar One', cursive;
+    padding-top: 17%;
+    font-size: 35px;
+}
+
+
 a:hover{
     color: rgb(11, 11, 139);
     border: rgb(11, 11, 139);
@@ -116,11 +124,6 @@ nav {
 
 
 
-h3 {
-    color: black;
-    font-family: 'Sigmar One', cursive;
-    padding-top: 20%;
-}
 
 
 .card-img-top {
